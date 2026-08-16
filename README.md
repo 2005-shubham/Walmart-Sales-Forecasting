@@ -4,6 +4,12 @@
 
 A predictive analytics project for analyzing historical Walmart weekly sales and forecasting future sales using statistical time-series models and machine learning.
 
+## 📓 Project Notebook
+
+The complete implementation and analysis are available in the Google Colab notebook:
+
+👉 [Open Google Colab Notebook](https://colab.research.google.com/drive/15BpcRzevUxHK4fKW1_Yj5giqxYNL0Yuw#scrollTo=Me_UYx8IX5y2)
+
 ---
 
 ## 📌 Project Overview
