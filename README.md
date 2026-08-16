@@ -80,6 +80,11 @@ Model Evaluation
 Model Comparison
           ↓
 Future Sales Forecasting
+          ↓
+Business Insights
+```
+
+---
 
 ## 📈 Exploratory Data Analysis
 
@@ -91,12 +96,16 @@ The historical sales data was analyzed to identify:
 - Major sales peaks and declines
 - Changes in sales behavior over time
 
+---
+
 ## 🤖 Models Implemented
 
 ### ARIMA
+
 Used as a baseline time-series forecasting model.
 
 ### SARIMA
+
 Used to capture both trend and seasonal patterns in weekly sales.
 
 Configuration:
@@ -106,7 +115,10 @@ Configuration:
 The seasonal period of 52 weeks was used to capture yearly seasonality.
 
 ### Random Forest
+
 A machine-learning regression model using features such as Store, Holiday Flag, Temperature, Fuel Price, CPI, Unemployment, Year, Month, and Week.
+
+---
 
 ## 🏆 Model Comparison
 
@@ -126,11 +138,15 @@ A machine-learning regression model using features such as Store, Holiday Flag, 
 
 The results indicate that incorporating seasonal patterns significantly improved forecasting performance.
 
+---
+
 ## 🔮 Forecast Results
 
 The selected SARIMA model was used to forecast future weekly Walmart sales.
 
 The forecast was visualized alongside historical sales to compare expected future sales behavior with historical patterns.
+
+---
 
 ## 💼 Business Insights
 
@@ -142,13 +158,17 @@ The analysis provides several useful insights:
 - Expected sales peaks can help businesses prepare for higher demand.
 - Forecasted declines can assist in resource and inventory management.
 
+---
+
 ## 📝 Conclusion
 
 This project demonstrates how predictive analytics and time-series forecasting can be used to analyze and forecast Walmart weekly sales.
 
-Among the evaluated models, SARIMA achieved the best performance with an R² Score of 0.6426 and the lowest MAE and RMSE.
+Among the evaluated models, SARIMA achieved the best performance with an R² Score of **0.6426** and the lowest MAE and RMSE.
 
 The results highlight the importance of incorporating seasonal patterns when forecasting weekly retail sales.
+
+---
 
 ## 🚀 Future Improvements
 
@@ -159,10 +179,10 @@ The results highlight the importance of incorporating seasonal patterns when for
 - Interactive dashboard using Streamlit or Power BI
 - Deployment of the forecasting model as an API
 
+---
+
 ## 👨‍💻 Author
 
 **Shubham Sharma**
 
 B.Tech Computer Science & Engineering
-          ↓
-Business Insights
